@@ -474,7 +474,7 @@ minetest.register_on_newplayer(function(player)
 	end
 
 	do
-		local quest = quests.new(name, "Lets mine!", "")
+		local quest = quests.new(name, "Let's mine!", "")
 		local q1 = quests.add_dig_goal(quest, "Mine Stone", {"default:stone"}, 10, "")
 		local q2 = quests.add_dig_goal(quest, "Mine Coal", {"default:stone_with_coal"}, 10, "")
 		local q3 = quests.add_dig_goal(quest, "Mine Iron", {"default:stone_with_iron"}, 10, "")
